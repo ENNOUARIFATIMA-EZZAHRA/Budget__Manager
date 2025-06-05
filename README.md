@@ -21,3 +21,16 @@ pour afficher les donnes ou aprés quelque operation dans la partie transaction(
 **Diagramme de sequence :**
 
 ![image](https://github.com/user-attachments/assets/df5776b9-855a-4096-a7c3-0c32558e500f)
+
+
+test dans postman :
+affiche
+POST :http://localhost:8080/api/transactions
+Body: {
+  "montant": 31,
+  "date": "2025-05-16",
+  "description": "Achat modifié",
+  "type": "depense",
+  "categorie": "bureau"
+}
+
